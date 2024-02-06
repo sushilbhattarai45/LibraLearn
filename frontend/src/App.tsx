@@ -1,5 +1,11 @@
+import Navbar from "./components/fotter";
+
 function App() {
-  return <div>hello schools!</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
