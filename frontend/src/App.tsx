@@ -7,9 +7,9 @@ function App() {
       <div
         style={{
           display: "flex",
+          marginTop: 20,
           flex: 1,
           width: "100vw",
-          height: "auto",
           justifyContent: "center",
           flexDirection: "row",
         }}
@@ -17,13 +17,17 @@ function App() {
         <div
           style={{
             flex: 0.7,
+            marginRight: 20,
           }}
         >
-          <img
-            className="h-max-[30vh] h-[30vh]"
-            src="https://sushilbhattarai.info.np/static/media/4.d5497b9e379b3895080b.jpg"
-            alt="image description"
-          />
+          <div style={{}}>
+            {" "}
+            <img
+              style={{ height: "70%", width: "60%", position: "fixed" }}
+              src="https://sushilbhattarai.info.np/static/media/4.d5497b9e379b3895080b.jpg"
+              alt="image description"
+            />
+          </div>
         </div>
         <div
           style={{
