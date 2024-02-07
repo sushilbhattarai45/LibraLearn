@@ -1,5 +1,7 @@
 import Navbar from "./components/NavBar";
 import VerticalAbout from "./components/About";
+import Footer from "./components/footer";
+import "./index.css";
 function App() {
   return (
     <div>
@@ -23,8 +25,10 @@ function App() {
           <div style={{}}>
             {" "}
             <img
-              style={{ height: "70%", width: "60%", position: "fixed" }}
-              src="https://sushilbhattarai.info.np/static/media/4.d5497b9e379b3895080b.jpg"
+              style={{
+                objectFit: "cover",
+              }}
+              src="https://kalikaschoolbtl.edu.np/public/storage/sliders/August2021/UZEJJPqEU6JJmUYyzuwF.jpg"
               alt="image description"
             />
           </div>
@@ -42,6 +46,14 @@ function App() {
           {" "}
           <VerticalAbout />
         </div>
+      </div>
+      <div
+        style={{
+          marginTop: 100,
+        }}
+      >
+        {" "}
+        <Footer />
       </div>
     </div>
   );
