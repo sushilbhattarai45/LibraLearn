@@ -26,8 +26,8 @@ const verticalAbout = () => {
               <img
                 style={{
                   height: "100px",
-                  width: "100px",
-                  borderRadius: "20%",
+                  width: "150px",
+                  borderRadius: "10px",
                 }}
                 className="w-32 h-32 mb-3 me-3 rounded-20 sm:mb-0"
                 src="https://sushilbhattarai.info.np/static/media/4.d5497b9e379b3895080b.jpg"
