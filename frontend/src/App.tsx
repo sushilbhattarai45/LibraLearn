@@ -29,7 +29,6 @@ function App() {
                 objectFit: "cover",
               }}
               src="https://kalikaschoolbtl.edu.np/public/storage/sliders/August2021/UZEJJPqEU6JJmUYyzuwF.jpg"
-              alt="image description"
             />
           </div>
         </div>
