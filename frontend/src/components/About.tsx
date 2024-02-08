@@ -1,10 +1,17 @@
 const verticalAbout = () => {
   return (
     <>
-      <div className="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+      <div
+        style={{
+          backgroundColor: "#3C486B",
+          color: "white",
+        }}
+        className="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
+      >
         <span
           style={{
             textAlign: "center",
+            color: "white",
             alignSelf: "center",
             width: "100%",
             justifyContent: "center",
@@ -18,10 +25,12 @@ const verticalAbout = () => {
             <a
               href="#"
               style={{
+                color: "white",
+
                 display: "flex",
                 flexDirection: "column",
               }}
-              className="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700"
+              className="items-center block p-3 sm:flex "
             >
               <img
                 style={{
@@ -48,18 +57,23 @@ const verticalAbout = () => {
                   className="text-base font-normal"
                 >
                   <span
-                    style={{ textAlign: "center" }}
+                    style={{ textAlign: "center", color: "white" }}
                     className="font-medium text-gray-900 dark:text-white"
                   >
                     Sushil Bhattarai
                   </span>{" "}
                   <br />
-                  <span className="font-medium text-gray-900 dark:text-white">
+                  <span className="font-medium text-white dark:text-white">
                     {" "}
                     Principle
                   </span>
                 </div>
-                <div className="text-sm font-normal">
+                <div
+                  style={{
+                    color: "white",
+                  }}
+                  className="text-sm font-normal"
+                >
                   "bhattaraisushil005@gmail.com"
                 </div>
               </div>
