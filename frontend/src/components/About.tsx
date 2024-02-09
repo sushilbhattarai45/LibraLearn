@@ -60,12 +60,12 @@ const verticalAbout = () => {
                     style={{ textAlign: "center", color: "white" }}
                     className="font-medium text-gray-900 dark:text-white"
                   >
-                    Sushil Bhattarai
+                    Ram Prasad Bhattarai
                   </span>{" "}
                   <br />
                   <span className="font-medium text-white dark:text-white">
                     {" "}
-                    Principle
+                    Chairamn{" "}
                   </span>
                 </div>
                 <div
